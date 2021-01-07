@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon"
+        alt="Logo feito no site https://logomakr.com/ todos os direitos reservados">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <title>Cronometro</title>
+</head>
+
+<body>
+    <div>
+        <div class="botoes">
+            <button class="btn-start" onclick="Start()">Iniciar</button>
+            <button class="btn-pause" onclick="Pause()">Pausar</button>
+            <button class="btn-stop" onclick="Stop()">Parar</button>
+        </div>
+        <div class="contador">
+            <h1 id="counter">00:00:00</h1>
+        </div>
+    </div>
+
+    <script src="cronometro.js"></script>
+</body>
+
+</html>
